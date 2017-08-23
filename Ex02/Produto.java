@@ -48,7 +48,7 @@ public class Produto
 	
 	public double getPreco()
 	{
-		return nome;
+		return preco;
 	}
 
 	public String getMarca()
@@ -63,6 +63,6 @@ public class Produto
 	
 	public Date getDataFab()
 	{
-		return data_fab;;
+		return data_fab;
 	}
 }
