@@ -23,5 +23,15 @@ public class ProdutoDuravel extends Produto
 		durabilidade = d;
 	}
 
+	public String getMaterialPred()
+	{
+		return materialPred;
+	}
+
+	public int getDurabilidade()
+	{
+		return durabilidade;
+	}
+
 	
 }
