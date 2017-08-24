@@ -1,6 +1,6 @@
 /**
 *
-* Classe Pizza
+* Classe Chocolate
 *
 * Herdeira da classe "ProdutoNaoDuravel"
 *

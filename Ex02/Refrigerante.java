@@ -1,6 +1,6 @@
 /**
 *
-* Classe Pizza
+* Classe Refrigerante
 *
 * Herdeira da classe "ProdutoNaoDuravel"
 *
