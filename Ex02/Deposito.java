@@ -9,6 +9,11 @@ public class Deposito
 		deposit = new ArrayList<Produto>();
 	}
 
+	public Produto get(int index)
+	{
+		return deposit.get(index);
+	}
+
 	public void addItem(Produto p)
 	{
 		deposit.add(p);
@@ -27,5 +32,21 @@ public class Deposito
 	public boolean isEmpty()
 	{
 		return deposit.isEmpty();
+	}
+
+	public Produto maiorPreco()
+	{
+		Produto maior = deposit.get(0);
+		for(int i = 1; i < deposit.size(); i++)
+		{
+			Produto p = deposit.get(i);
+
+			if(p.getPreco() > maior.getPreco())
+			{
+				maior = p;
+			}
+		}
+
+		return maior;
 	}
 }
