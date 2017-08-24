@@ -14,6 +14,11 @@ public class Celular extends ProdutoDuravel
 		bateria = 100;
 	}
 
+	public void setOperadora(String o)
+	{
+		operadora = o;
+	}
+
 	public String getOperadora()
 	{
 		return operadora;
@@ -35,6 +40,11 @@ public class Celular extends ProdutoDuravel
 			bateria = 0;
 		}
 		bateria = bateria - 20; 
+	}
+
+	public void recarregar()
+	{
+		bateria = 100;
 	}
 
 }

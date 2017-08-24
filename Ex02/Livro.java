@@ -24,7 +24,7 @@ public class Livro extends ProdutoDuravel
 		return pagMarcador;
 	}
 
-	public void ler(int p)
+	public void read(int p)
 	{
 		
 		if(p < 0)
