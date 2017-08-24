@@ -20,11 +20,11 @@ public class Carro extends Veiculo
 	 *
 	 *Construtor 'super' herdado da classe Veiculo
 	 *
-	 *@param	marca_		marca do veiculo
-	 *@param	modelo_		modelo do veiculo
-	 *@param	placa_		placa do veiculo
-	 *@param	potencia_	potencia do carro
-	 *@param	portas_		quantidade de portas do carro
+	 *@param	String		marca_		marca do veiculo
+	 *@param	String		modelo_		modelo do veiculo
+	 *@param	String		placa_		placa do veiculo
+	 *@param	String		potencia_	potencia do carro
+	 *@param	int		portas_		quantidade de portas do carro
 	 */
 	public Carro(String marca_, String modelo_, String placa_, double potencia_, int portas_)
 	{
@@ -35,13 +35,17 @@ public class Carro extends Veiculo
 
 	/**
 	 *Substitui a potencia do carro pelo parametro passado
+	 *caso esse seja válido
 	 *
 	 *@param	double		nova potencia do carro
 	 */
 
 	public void setPotencia(double p)
-	{
-		potencia = p;
+	{	
+		if(p < 1 || p > 3)
+			System.out.println("Potencia invalida!");
+		else
+			potencia = p;
 	}
 
 	/**
