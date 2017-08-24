@@ -4,7 +4,7 @@ public class Livro extends ProdutoDuravel
 	private int paginas;
 	private int pagMarcador;
 	
-	Livro(String nome_, double preco_, String marca_, String descricao_, Date data_fab_,
+	Livro(String nome_, double preco_, String marca_, String descricao_, String data_fab_,
               String materialPred_, int durabilidade_, int paginas_)
 	{
 		super(nome_, preco_, marca_, descricao_, data_fab_,

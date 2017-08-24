@@ -4,7 +4,7 @@ public class Carro extends ProdutoDuravel
 	private String modelo;
 	private double quilometros;
 
-	public Carro(String nome_, double preco_, String marca_, String descricao_, Date data_fab_,
+	public Carro(String nome_, double preco_, String marca_, String descricao_, String data_fab_,
                      String materialPred_, int durabilidade_, String modelo_, double quilometros_)
 	{
 		super(nome_, preco_, marca_, descricao_, data_fab_,

@@ -2,11 +2,11 @@
 public class ProdutoNaoDuravel extends Produto
 {
 
-	private Date dataVal;
+	private String dataVal;
 	private String genero;
 
-	public ProdutoNaoDuravel(String nome_, double preco_, String marca_, String descricao_, Date data_fab_,
-                              Date dataVal_, String genero_)
+	public ProdutoNaoDuravel(String nome_, double preco_, String marca_, String descricao_, String data_fab_,
+                              String dataVal_, String genero_)
 	{
 		super(nome_, preco_, marca_, descricao_, data_fab_);
 
@@ -14,7 +14,7 @@ public class ProdutoNaoDuravel extends Produto
 		genero = genero_;
 	}
 
-	public void setDataVal(Date d)
+	public void setDataVal(String d)
 	{
 		dataVal = d;
 	}
@@ -24,7 +24,7 @@ public class ProdutoNaoDuravel extends Produto
 		genero = g;
 	}
 
-	public Date getDataVal()
+	public String getDataVal()
 	{
 		return dataVal;
 	}

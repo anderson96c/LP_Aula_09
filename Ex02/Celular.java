@@ -4,7 +4,7 @@ public class Celular extends ProdutoDuravel
 	private String operadora;
 	private int bateria;
 
-	public Celular(String nome_, double preco_, String marca_, String descricao_, Date data_fab_,
+	public Celular(String nome_, double preco_, String marca_, String descricao_, String data_fab_,
                        String materialPred_, int durabilidade_, String operadora_)
 	{
 		super(nome_, preco_, marca_, descricao_, data_fab_,

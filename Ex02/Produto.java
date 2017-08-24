@@ -5,9 +5,9 @@ public class Produto
 	private double preco;
 	private String marca;
 	private String descricao;
-	private Date data_fab;
+	private String data_fab;
 
-	public Produto (String nome_, double preco_, String marca_, String descricao_, Date data_fab_)
+	public Produto (String nome_, double preco_, String marca_, String descricao_, String data_fab_)
 	{
 		nome = nome_;
 		preco = preco_;
@@ -36,7 +36,7 @@ public class Produto
 		descricao = d;
 	}
 
-	public void setDataFab(Date dt)
+	public void setDataFab(String dt)
 	{
 		data_fab = dt;
 	}
@@ -61,7 +61,7 @@ public class Produto
 		return descricao;
 	}
 	
-	public Date getDataFab()
+	public String getDataFab()
 	{
 		return data_fab;
 	}
